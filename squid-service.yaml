@@ -4,6 +4,7 @@ metadata:
   labels:
     app: squid
   name: squid
+  namespace: squid-proxy
 spec:
   ports:
     - port: 3128
